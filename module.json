@@ -1,7 +1,7 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "aaw-underworld",
+  "title": "AAW Underworld Compendium",
+  "description": "AAW Underworld Races & Classes",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
@@ -12,14 +12,14 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Trazzm",
+      "url": "https://github.com/gregpola",
+      "discord": "trazzm#1390"
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": ["dnd5e"],
+    "requires": ["dnd5e"]
   },
   "esmodules": [
     "scripts/module.js"
@@ -35,6 +35,79 @@
       "lang": "en",
       "name": "English",
       "path": "languages/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "aaw-backgrounds",
+      "label": "Backgrounds (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/backgrounds.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "aaw-classes",
+      "label": "Classes (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/classes.db",
+      "type": "Item"
+    },
+    {
+      "name": "aaw-classfeatures",
+      "label": "Class Features (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/classfeatures.db",
+      "type": "Item"
+    },
+    {
+      "name": "aaw-subclasses",
+      "label": "Subclasses (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/subclasses.db",
+      "type": "Item"
+    },
+    {
+      "name": "aaw-races",
+      "label": "Racial Features (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/races.db",
+      "type": "Item"
+    },
+    {
+      "name": "aaw-items",
+      "label": "Items (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/items.db",
+      "type": "Item"
+    },
+    {
+      "name": "aaw-monsters",
+      "label": "Monsters (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/monsters.db",
+      "type": "Actor"
+    },
+    {
+      "name": "aaw-monsterfeatures",
+      "label": "Monster Features (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/monsterfeatures.db",
+      "type": "Item"
+    },
+    {
+      "name": "aaw-spells",
+      "label": "Spells (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/spells.db",
+      "type": "Item"
+    },
+    {
+      "name": "aaw-tables",
+      "label": "Tables (AAW)",
+      "system": "dnd5e",
+      "path": "./packs/tables.db",
+      "type": "RollTable"
     }
   ],
   "url": "This is auto replaced",
