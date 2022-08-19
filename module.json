@@ -1,8 +1,10 @@
 {
   "id": "aaw-underworld",
+  "name": "aaw-underworld",
   "title": "AAW Underworld Compendium",
   "description": "AAW Underworld Races & Classes",
   "version": "This is auto replaced",
+  "library": "false",
   "manifestPlusVersion": "1.2.0",
   "minimumCoreVersion": "0.9.0",
   "compatibleCoreVersion": "9.269",
@@ -120,10 +122,6 @@
   "download": "This is auto replaced",
   "license": "LICENSE",
   "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "bugs": "https://github.com/gregpola/aaw-underworld/issues",
+  "changelog": "https://raw.githubusercontent.com/gregpola/aaw-underworld/main/changelog.md"
 }
