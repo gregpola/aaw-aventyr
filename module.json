@@ -4,11 +4,8 @@
   "description": "AAW Underworld Races & Classes",
   "version": "This is auto replaced",
   "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": "9",
-    "verified": "9",
-    "maximum": "9"
-  },
+  "minimumCoreVersion": "0.9.0",
+  "compatibleCoreVersion": "9.269",
   "authors": [
     {
       "name": "Trazzm",
