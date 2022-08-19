@@ -1,12 +1,14 @@
 {
-  "name": "aaw-underworld",
+  "id": "aaw-underworld",
   "title": "AAW Underworld Compendium",
   "description": "AAW Underworld Races & Classes",
   "version": "This is auto replaced",
-  "library": "false",
   "manifestPlusVersion": "1.2.0",
-  "minimumCoreVersion": "0.9.0",
-  "compatibleCoreVersion": "9.269",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "9",
+    "maximum": "9"
+  },
   "authors": [
     {
       "name": "Trazzm",
@@ -15,8 +17,8 @@
     }
   ],
   "relationships": {
-    "systems": ["dnd5e"],
-    "requires": []
+    "requires": [],
+    "systems": ["dnd5e"]
   },
   "esmodules": [
     "scripts/module.js"
