@@ -51,6 +51,7 @@
       "label": "Classes (AAW)",
       "system": "dnd5e",
       "path": "./packs/classes.db",
+      "entity": "Item",
       "type": "Item"
     },
     {
@@ -58,6 +59,7 @@
       "label": "Class Features (AAW)",
       "system": "dnd5e",
       "path": "./packs/classfeatures.db",
+      "entity": "Item",
       "type": "Item"
     },
     {
@@ -65,6 +67,7 @@
       "label": "Subclasses (AAW)",
       "system": "dnd5e",
       "path": "./packs/subclasses.db",
+      "entity": "Item",
       "type": "Item"
     },
     {
@@ -72,6 +75,7 @@
       "label": "Racial Features (AAW)",
       "system": "dnd5e",
       "path": "./packs/races.db",
+      "entity": "Item",
       "type": "Item"
     },
     {
@@ -79,6 +83,7 @@
       "label": "Items (AAW)",
       "system": "dnd5e",
       "path": "./packs/items.db",
+      "entity": "Item",
       "type": "Item"
     },
     {
@@ -86,6 +91,7 @@
       "label": "Monsters (AAW)",
       "system": "dnd5e",
       "path": "./packs/monsters.db",
+      "entity": "Actor",
       "type": "Actor"
     },
     {
@@ -93,6 +99,7 @@
       "label": "Monster Features (AAW)",
       "system": "dnd5e",
       "path": "./packs/monsterfeatures.db",
+      "entity": "Item",
       "type": "Item"
     },
     {
@@ -100,6 +107,7 @@
       "label": "Spells (AAW)",
       "system": "dnd5e",
       "path": "./packs/spells.db",
+      "entity": "Item",
       "type": "Item"
     },
     {
@@ -107,6 +115,7 @@
       "label": "Tables (AAW)",
       "system": "dnd5e",
       "path": "./packs/tables.db",
+      "entity": "RollTable",
       "type": "RollTable"
     }
   ],
