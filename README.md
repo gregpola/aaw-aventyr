@@ -1,11 +1,11 @@
 [![Github All Releases](https://img.shields.io/github/downloads/gregpola/aaw-aventyr/total.svg)]() 
 <!-- [![Donate](https://img.shields.io/badge/Donate-BuyMeACoffee-green.svg)](https://www.buymeacoffee.com/ChalkOne) -->
-# AAW Underworld Compendium by Trazzm
+# AAW Aventyr Compendium by Trazzm
 
-A compendium module for AAW content
+A compendium module for the AAW Aventyr campaign setting
 
 ### Compatibility:
-- Tested with FVTT v10 and the DND5E system 1.6+.
+- Tested with FVTT v9 and the DND5E system 1.6+.
 
 ### Installation Instructions
 
