@@ -7,7 +7,7 @@
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "minimumCoreVersion": "0.9.0",
-  "compatibleCoreVersion": "9.269",
+  "compatibleCoreVersion": "9.280",
   "authors": [
     {
       "name": "Trazzm",
