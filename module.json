@@ -1,143 +1,154 @@
 {
-  "id": "aaw-aventyr",
-  "name": "aaw-aventyr",
-  "title": "AAW Aventyr Compendium",
-  "description": "AAW Aventyr Campaign Setting",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
-  "minimumCoreVersion": "0.9.0",
-  "compatibleCoreVersion": "9.280",
-  "authors": [
-    {
-      "name": "Trazzm",
-      "url": "https://github.com/gregpola",
-      "discord": "trazzm#1390"
-    }
-  ],
-  "relationships": {
-    "requires": [],
-    "systems": ["dnd5e"]
-  },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "packs": [
-    {
-      "name": "aaw-backgrounds",
-      "label": "Backgrounds (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/backgrounds.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "aaw-classes",
-      "label": "Classes (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/classes.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "aaw-classfeatures",
-      "label": "Class Features (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/classfeatures.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "aaw-subclasses",
-      "label": "Subclasses (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/subclasses.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "aaw-races",
-      "label": "Races (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/races.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "aaw-race-features",
-      "label": "Racial Features (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/racefeatures.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "aaw-items",
-      "label": "Items (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/items.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "aaw-monsters",
-      "label": "Monsters (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/monsters.db",
-      "entity": "Actor",
-      "type": "Actor"
-    },
-    {
-      "name": "aaw-monsterfeatures",
-      "label": "Monster Features (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/monsterfeatures.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "aaw-journal",
-      "label": "Journal (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/journal.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "aaw-spells",
-      "label": "Spells (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/spells.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "aaw-tables",
-      "label": "Tables (AAW)",
-      "system": "dnd5e",
-      "path": "./packs/tables.db",
-      "entity": "RollTable",
-      "type": "RollTable"
-    }
-  ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "bugs": "https://github.com/gregpola/aaw-aventyr/issues",
-  "changelog": "https://raw.githubusercontent.com/gregpola/aaw-aventyr/main/changelog.md"
+    "id": "aaw-aventyr",
+    "title": "AAW Aventyr Compendium",
+    "description": "AAW Aventyr Campaign Setting",
+    "version": "0.0.14",
+    "library": "false",
+	"compatibility": {
+		"minimum": 9,
+		"verified": 10,
+		"maximum": 10
+	},
+    "authors": [
+        {
+            "name": "Trazzm",
+            "url": "https://github.com/gregpola",
+            "discord": "trazzm#1390"
+        }
+    ],
+	"relationships": {
+		"systems": [
+		  {
+			"id": "dnd5e",
+			"type": "system",
+			"compatibility": {
+			  "minimum": "2.0.1",
+			  "compatible": "2.0.1"
+			}
+		  }
+		],
+		"requires": [
+		]
+	},
+    "esmodules": [
+        "scripts/module.js"
+    ],
+    "scripts": [
+        "scripts/lib/lib.js"
+    ],
+    "styles": [
+        "styles/module.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "packs": [
+        {
+            "name": "aaw-backgrounds",
+            "label": "Backgrounds (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/backgrounds.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "aaw-classes",
+            "label": "Classes (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/classes.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "aaw-classfeatures",
+            "label": "Class Features (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/classfeatures.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "aaw-subclasses",
+            "label": "Subclasses (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/subclasses.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "aaw-races",
+            "label": "Races (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/races.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "aaw-race-features",
+            "label": "Racial Features (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/racefeatures.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "aaw-items",
+            "label": "Items (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/items.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "aaw-monsters",
+            "label": "Monsters (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/monsters.db",
+            "entity": "Actor",
+            "type": "Actor"
+        },
+        {
+            "name": "aaw-monsterfeatures",
+            "label": "Monster Features (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/monsterfeatures.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "aaw-journal",
+            "label": "Journal (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/journal.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "aaw-spells",
+            "label": "Spells (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/spells.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "aaw-tables",
+            "label": "Tables (AAW)",
+            "system": "dnd5e",
+            "path": "./packs/tables.db",
+            "entity": "RollTable",
+            "type": "RollTable"
+        }
+    ],
+    "url": "https://github.com/gregpola/aaw-aventyr",
+    "manifest": "https://github.com/gregpola/aaw-aventyr/releases/latest/download/module.json",
+    "download": "https://github.com/gregpola/aaw-aventyr/releases/download/0.0.13/module.zip",
+    "license": "LICENSE",
+    "readme": "README.md",
+    "bugs": "https://github.com/gregpola/aaw-aventyr/issues",
+    "changelog": "https://raw.githubusercontent.com/gregpola/aaw-aventyr/main/changelog.md"
 }
