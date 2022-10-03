@@ -2,13 +2,11 @@
     "id": "aaw-aventyr",
     "title": "AAW Aventyr Compendium",
     "description": "AAW Aventyr Campaign Setting",
-    "version": "0.0.14",
+    "version": "This is auto replaced",
     "library": "false",
-	"compatibility": {
-		"minimum": 9,
-		"verified": 10,
-		"maximum": 10
-	},
+    "manifestPlusVersion": "1.2.0",
+    "minimumCoreVersion": "0.9.0",
+    "compatibleCoreVersion": "9.280",
     "authors": [
         {
             "name": "Trazzm",
@@ -17,18 +15,8 @@
         }
     ],
 	"relationships": {
-		"systems": [
-		  {
-			"id": "dnd5e",
-			"type": "system",
-			"compatibility": {
-			  "minimum": "2.0.1",
-			  "compatible": "2.0.1"
-			}
-		  }
-		],
-		"requires": [
-		]
+        "systems": ["dnd5e"],
+		"requires": []
 	},
     "esmodules": [
         "scripts/module.js"
@@ -144,9 +132,9 @@
             "type": "RollTable"
         }
     ],
-    "url": "https://github.com/gregpola/aaw-aventyr",
-    "manifest": "https://github.com/gregpola/aaw-aventyr/releases/latest/download/module.json",
-    "download": "https://github.com/gregpola/aaw-aventyr/releases/download/0.0.13/module.zip",
+    "url": "This is auto replaced",
+    "manifest": "This is auto replaced",
+    "download": "This is auto replaced",
     "license": "LICENSE",
     "readme": "README.md",
     "bugs": "https://github.com/gregpola/aaw-aventyr/issues",
