@@ -4,7 +4,6 @@
     "description": "AAW Aventyr Campaign Setting",
     "version": "This is auto replaced",
     "library": "false",
-    "manifestPlusVersion": "1.2.0",
     "authors": [
         {
             "name": "Trazzm",
@@ -18,7 +17,7 @@
                 "id": "dnd5e",
                 "type": "system",
                 "compatibility": {
-                    "minimum": "2.1.0"
+                    "minimum": "2.1.2"
                 }
             }
         ]
@@ -44,103 +43,139 @@
             "name": "aaw-backgrounds",
             "label": "Backgrounds (AAW)",
             "system": "dnd5e",
-            "path": "./packs/backgrounds.db",
-            "entity": "Item",
-            "type": "Item"
+            "path": "packs/backgrounds",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-classes",
             "label": "Classes (AAW)",
             "system": "dnd5e",
-            "path": "./packs/classes.db",
-            "entity": "Item",
-            "type": "Item"
+            "path": "packs/classes",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-classfeatures",
             "label": "Class Features (AAW)",
             "system": "dnd5e",
-            "path": "./packs/classfeatures.db",
-            "entity": "Item",
-            "type": "Item"
+            "path": "packs/classfeatures",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-subclasses",
             "label": "Subclasses (AAW)",
             "system": "dnd5e",
-            "path": "./packs/subclasses.db",
-            "entity": "Item",
-            "type": "Item"
+            "path": "packs/subclasses",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-races",
             "label": "Races (AAW)",
             "system": "dnd5e",
-            "path": "./packs/races.db",
-            "entity": "Item",
-            "type": "Item"
+            "path": "packs/races",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-race-features",
             "label": "Racial Features (AAW)",
             "system": "dnd5e",
-            "path": "./packs/racefeatures.db",
-            "entity": "Item",
-            "type": "Item"
+            "path": "packs/racefeatures",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-items",
             "label": "Items (AAW)",
             "system": "dnd5e",
-            "path": "./packs/items.db",
-            "entity": "Item",
-            "type": "Item"
+            "path": "packs/items",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-monsters",
             "label": "Monsters (AAW)",
             "system": "dnd5e",
-            "path": "./packs/monsters.db",
-            "entity": "Actor",
-            "type": "Actor"
+            "path": "packs/monsters",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-monsterfeatures",
             "label": "Monster Features (AAW)",
             "system": "dnd5e",
-            "path": "./packs/monsterfeatures.db",
-            "entity": "Item",
-            "type": "Item"
+            "path": "packs/monsterfeatures",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-journal",
             "label": "Journal (AAW)",
             "system": "dnd5e",
-            "path": "./packs/journal.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
+            "path": "packs/journal",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-spells",
             "label": "Spells (AAW)",
             "system": "dnd5e",
-            "path": "./packs/spells.db",
-            "entity": "Item",
-            "type": "Item"
+            "path": "packs/spells",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         },
         {
             "name": "aaw-tables",
             "label": "Tables (AAW)",
             "system": "dnd5e",
-            "path": "./packs/tables.db",
-            "entity": "RollTable",
-            "type": "RollTable"
+            "path": "packs/tables",
+            "type": "RollTable",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         }
     ],
     "compatibility": {
-        "minimum": "10.286",
-        "verified": "10",
-        "maximum": "10"
+        "minimum": "11",
+        "verified": "11",
+        "maximum": "11"
     },
     "url": "https://github.com/gregpola/aaw-aventyr",
     "manifest": "https://github.com/gregpola/aaw-aventyr/releases/latest/download/module.json",
