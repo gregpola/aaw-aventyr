@@ -1,3 +1,6 @@
+# 11.1
+* Spells Updated: Shadow Cast, Shadow Mote
+* 
 # 11.0
 * Initial update for v11
 
