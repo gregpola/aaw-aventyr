@@ -1,3 +1,6 @@
+# 11.2
+* Updated all races for dnd5e 2.4+
+
 # 11.1
 * Spells Updated: Shadow Cast, Shadow Mote
 * 

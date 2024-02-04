@@ -17,7 +17,16 @@
                 "id": "dnd5e",
                 "type": "system",
                 "compatibility": {
-                    "minimum": "2.1.2"
+                    "minimum": "2.4.1"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "fvtt-trazzm-homebrew-5e",
+                "type": "module",
+                "compatibility": {
+                    "minimum": "11.15"
                 }
             }
         ]
