@@ -1,3 +1,6 @@
+# 11.3
+* General compendium cleanup
+
 # 11.2
 * Updated all races for dnd5e 2.4+
 
