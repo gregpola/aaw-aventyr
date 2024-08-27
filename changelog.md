@@ -1,3 +1,6 @@
+# 12.0
+* Updated to support v12 and DND 3.3+
+
 # 11.3
 * General compendium cleanup
 

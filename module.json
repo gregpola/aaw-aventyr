@@ -17,7 +17,8 @@
                 "id": "dnd5e",
                 "type": "system",
                 "compatibility": {
-                    "minimum": "2.4.1"
+                    "minimum": "3.3.0",
+                    "maximum": "3.3.99"
                 }
             }
         ],
@@ -26,7 +27,7 @@
                 "id": "fvtt-trazzm-homebrew-5e",
                 "type": "module",
                 "compatibility": {
-                    "minimum": "11.15"
+                    "minimum": "12.3.0"
                 }
             }
         ]
@@ -193,9 +194,9 @@
         }
     ],
     "compatibility": {
-        "minimum": "11",
-        "verified": "11",
-        "maximum": "11"
+        "minimum": "12",
+        "verified": "12",
+        "maximum": "12"
     },
     "url": "https://github.com/gregpola/aaw-aventyr",
     "manifest": "https://github.com/gregpola/aaw-aventyr/releases/latest/download/module.json",
