@@ -3,12 +3,12 @@
     "title": "AAW Aventyr Compendium",
     "description": "AAW Aventyr Campaign Setting",
     "version": "This is auto replaced",
-    "library": "false",
     "authors": [
         {
             "name": "Trazzm",
             "url": "https://github.com/gregpola",
-            "discord": "trazzm#1390"
+            "discord": "trazzm#1390",
+            "flags": {}
         }
     ],
     "relationships": {
@@ -45,16 +45,17 @@
         {
             "lang": "en",
             "name": "English",
-            "path": "languages/en.json"
+            "path": "languages/en.json",
+            "flags": {}
         }
     ],
     "packs": [
         {
             "name": "aaw-backgrounds",
             "label": "Backgrounds (AAW)",
-            "system": "dnd5e",
             "path": "packs/backgrounds",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -63,9 +64,9 @@
         {
             "name": "aaw-classes",
             "label": "Classes (AAW)",
-            "system": "dnd5e",
             "path": "packs/classes",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -74,9 +75,9 @@
         {
             "name": "aaw-classfeatures",
             "label": "Class Features (AAW)",
-            "system": "dnd5e",
             "path": "packs/classfeatures",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -85,9 +86,9 @@
         {
             "name": "aaw-subclasses",
             "label": "Subclasses (AAW)",
-            "system": "dnd5e",
             "path": "packs/subclasses",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -96,9 +97,9 @@
         {
             "name": "aaw-races",
             "label": "Races (AAW)",
-            "system": "dnd5e",
             "path": "packs/races",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -107,9 +108,9 @@
         {
             "name": "aaw-race-features",
             "label": "Racial Features (AAW)",
-            "system": "dnd5e",
             "path": "packs/racefeatures",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -118,9 +119,9 @@
         {
             "name": "aaw-items",
             "label": "Items (AAW)",
-            "system": "dnd5e",
             "path": "packs/items",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -129,9 +130,9 @@
         {
             "name": "aaw-monsters",
             "label": "Monsters (AAW)",
-            "system": "dnd5e",
             "path": "packs/monsters",
             "type": "Actor",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -140,9 +141,9 @@
         {
             "name": "aaw-monsterfeatures",
             "label": "Monster Features (AAW)",
-            "system": "dnd5e",
             "path": "packs/monsterfeatures",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -151,9 +152,9 @@
         {
             "name": "aaw-journal",
             "label": "Journal (AAW)",
-            "system": "dnd5e",
             "path": "packs/journal",
             "type": "JournalEntry",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -162,9 +163,9 @@
         {
             "name": "aaw-spells",
             "label": "Spells (AAW)",
-            "system": "dnd5e",
             "path": "packs/spells",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -173,9 +174,9 @@
         {
             "name": "aaw-tables",
             "label": "Tables (AAW)",
-            "system": "dnd5e",
             "path": "packs/tables",
             "type": "RollTable",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -191,17 +192,17 @@
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             }
-		},
-		{
-			"name": "automation-actors-aaw",
-			"label": "Automation Actors (AAW)",
-			"path": "packs/automation-actors-aaw",
-			"type": "Actor",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+        },
+        {
+            "name": "automation-actors-aaw",
+            "label": "Automation Actors (AAW)",
+            "path": "packs/automation-actors-aaw",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e"
         }
     ],
     "compatibility": {
