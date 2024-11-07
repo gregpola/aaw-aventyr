@@ -1,3 +1,6 @@
+# 12.1
+* Updates for Rise of the Drow chapter 5
+
 # 12.0
 * Updated to support v12 and DND 3.3+
 
