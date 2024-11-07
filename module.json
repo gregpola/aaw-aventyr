@@ -1,220 +1,220 @@
 {
-    "id": "aaw-aventyr",
-    "title": "AAW Aventyr Compendium",
-    "description": "AAW Aventyr Campaign Setting",
-    "version": "This is auto replaced",
-    "authors": [
-        {
-            "name": "Trazzm",
-            "url": "https://github.com/gregpola",
-            "discord": "trazzm#1390",
-            "flags": {}
-        }
-    ],
-    "relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system",
-                "compatibility": {
-                    "minimum": "3.3.0",
-                    "maximum": "3.3.99"
-                }
-            }
-        ],
-        "requires": [
-            {
-                "id": "fvtt-trazzm-homebrew-5e",
-                "type": "module",
-                "compatibility": {
-                    "minimum": "12.3.0"
-                }
-            }
-        ]
-    },
-    "esmodules": [
-        "scripts/module.js"
-    ],
-    "scripts": [
-        "scripts/lib/lib.js"
-    ],
-    "styles": [
-        "styles/module.css"
-    ],
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "languages/en.json",
-            "flags": {}
-        }
-    ],
-    "packs": [
-        {
-            "name": "aaw-backgrounds",
-            "label": "Backgrounds (AAW)",
-            "path": "packs/backgrounds",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-classes",
-            "label": "Classes (AAW)",
-            "path": "packs/classes",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-classfeatures",
-            "label": "Class Features (AAW)",
-            "path": "packs/classfeatures",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-subclasses",
-            "label": "Subclasses (AAW)",
-            "path": "packs/subclasses",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-races",
-            "label": "Races (AAW)",
-            "path": "packs/races",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-race-features",
-            "label": "Racial Features (AAW)",
-            "path": "packs/racefeatures",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-items",
-            "label": "Items (AAW)",
-            "path": "packs/items",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-monsters",
-            "label": "Monsters (AAW)",
-            "path": "packs/monsters",
-            "type": "Actor",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-monsterfeatures",
-            "label": "Monster Features (AAW)",
-            "path": "packs/monsterfeatures",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-journal",
-            "label": "Journal (AAW)",
-            "path": "packs/journal",
-            "type": "JournalEntry",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-spells",
-            "label": "Spells (AAW)",
-            "path": "packs/spells",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-tables",
-            "label": "Tables (AAW)",
-            "path": "packs/tables",
-            "type": "RollTable",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "aaw-automation-items",
-            "label": "Automation Items (AAW)",
-            "path": "packs/automation-items",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "automation-actors-aaw",
-            "label": "Automation Actors (AAW)",
-            "path": "packs/automation-actors-aaw",
-            "type": "Actor",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        }
-    ],
-    "compatibility": {
-        "minimum": "12",
-        "verified": "12",
-        "maximum": "12"
-    },
-    "url": "https://github.com/gregpola/aaw-aventyr",
-    "manifest": "https://github.com/gregpola/aaw-aventyr/releases/latest/download/module.json",
-    "download": "https://github.com/gregpola/aaw-aventyr/releases/latest/download/module.zip",
-    "changelog": "https://raw.githubusercontent.com/gregpola/aaw-aventyr/main/changelog.md",
-    "readme": "https://raw.githubusercontent.com/gregpola/aaw-aventyr/main/README.md",
-    "license": "LICENSE",
-    "bugs": "https://github.com/gregpola/aaw-aventyr/issues"
+	"id": "aaw-aventyr",
+	"title": "AAW Aventyr Compendium",
+	"description": "AAW Aventyr Campaign Setting",
+	"version": "This is auto replaced",
+	"authors": [
+		{
+			"name": "Trazzm",
+			"url": "https://github.com/gregpola",
+			"discord": "trazzm#1390",
+			"flags": {}
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "3.3.0",
+					"maximum": "3.3.99"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "fvtt-trazzm-homebrew-5e",
+				"type": "module",
+				"compatibility": {
+					"minimum": "12.3.0"
+				}
+			}
+		]
+	},
+	"esmodules": [
+		"scripts/module.js"
+	],
+	"scripts": [
+		"scripts/lib/lib.js"
+	],
+	"styles": [
+		"styles/module.css"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json",
+			"flags": {}
+		}
+	],
+	"packs": [
+		{
+			"name": "aaw-backgrounds",
+			"label": "Backgrounds (AAW)",
+			"path": "packs/backgrounds",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-classes",
+			"label": "Classes (AAW)",
+			"path": "packs/classes",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-classfeatures",
+			"label": "Class Features (AAW)",
+			"path": "packs/classfeatures",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-subclasses",
+			"label": "Subclasses (AAW)",
+			"path": "packs/subclasses",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-races",
+			"label": "Races (AAW)",
+			"path": "packs/races",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-race-features",
+			"label": "Racial Features (AAW)",
+			"path": "packs/racefeatures",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-items",
+			"label": "Items (AAW)",
+			"path": "packs/items",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-monsters",
+			"label": "Monsters (AAW)",
+			"path": "packs/monsters",
+			"type": "Actor",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-monsterfeatures",
+			"label": "Monster Features (AAW)",
+			"path": "packs/monsterfeatures",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-journal",
+			"label": "Journal (AAW)",
+			"path": "packs/journal",
+			"type": "JournalEntry",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-spells",
+			"label": "Spells (AAW)",
+			"path": "packs/spells",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-tables",
+			"label": "Tables (AAW)",
+			"path": "packs/tables",
+			"type": "RollTable",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "aaw-automation-items",
+			"label": "Automation Items (AAW)",
+			"path": "packs/automation-items",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "automation-actors-aaw",
+			"label": "Automation Actors (AAW)",
+			"path": "packs/automation-actors-aaw",
+			"type": "Actor",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		}
+	],
+	"compatibility": {
+		"minimum": "12",
+		"verified": "12",
+		"maximum": "12"
+	},
+	"url": "https://github.com/gregpola/aaw-aventyr",
+	"manifest": "https://github.com/gregpola/aaw-aventyr/releases/latest/download/module.json",
+	"download": "https://github.com/gregpola/aaw-aventyr/releases/latest/download/module.zip",
+	"changelog": "https://raw.githubusercontent.com/gregpola/aaw-aventyr/main/changelog.md",
+	"readme": "https://raw.githubusercontent.com/gregpola/aaw-aventyr/main/README.md",
+	"license": "LICENSE",
+	"bugs": "https://github.com/gregpola/aaw-aventyr/issues"
 }
