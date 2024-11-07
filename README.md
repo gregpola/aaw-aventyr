@@ -5,7 +5,7 @@
 A compendium module for the AAW Aventyr campaign setting
 
 ### Compatibility:
-- Tested with FVTT v9 and the DND5E system 1.6+.
+- Tested with FVTT v12 and the DND5E system 3.3+.
 
 ### Installation Instructions
 
