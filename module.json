@@ -55,154 +55,122 @@
 			"label": "Backgrounds (AAW)",
 			"path": "packs/backgrounds",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-classes",
 			"label": "Classes (AAW)",
 			"path": "packs/classes",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-classfeatures",
 			"label": "Class Features (AAW)",
 			"path": "packs/classfeatures",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-subclasses",
 			"label": "Subclasses (AAW)",
 			"path": "packs/subclasses",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-races",
 			"label": "Races (AAW)",
 			"path": "packs/races",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-race-features",
 			"label": "Racial Features (AAW)",
 			"path": "packs/racefeatures",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-items",
 			"label": "Items (AAW)",
 			"path": "packs/items",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-monsters",
 			"label": "Monsters (AAW)",
 			"path": "packs/monsters",
 			"type": "Actor",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-monsterfeatures",
 			"label": "Monster Features (AAW)",
 			"path": "packs/monsterfeatures",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-journal",
 			"label": "Journal (AAW)",
 			"path": "packs/journal",
 			"type": "JournalEntry",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-spells",
 			"label": "Spells (AAW)",
 			"path": "packs/spells",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-tables",
 			"label": "Tables (AAW)",
 			"path": "packs/tables",
 			"type": "RollTable",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "aaw-automation-items",
 			"label": "Automation Items (AAW)",
 			"path": "packs/automation-items",
 			"type": "Item",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
 		},
 		{
 			"name": "automation-actors-aaw",
 			"label": "Automation Actors (AAW)",
 			"path": "packs/automation-actors-aaw",
 			"type": "Actor",
-			"system": "dnd5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
+			"system": "dnd5e"
+		}
+	],
+	"packFolders": [
+		{
+			"name": "AAW Aventyr Compendium",
+			"sorting": "a",
+			"color": "#7746CC",
+			"packs": [
+				"aaw-backgrounds",
+				"aaw-classes",
+				"aaw-classfeatures",
+				"aaw-subclasses",
+				"aaw-races",
+				"aaw-race-features",
+				"aaw-items",
+				"aaw-monsters",
+				"aaw-monsterfeatures",
+				"aaw-journal",
+				"aaw-spells",
+				"aaw-tables",
+				"aaw-automation-items",
+				"automation-actors-aaw"
+			],
+			"folders": []
 		}
 	],
 	"compatibility": {
